@@ -1,0 +1,125 @@
+:root {
+    --primary-color: #B760EA;
+    --secondary-color: #A24BDB;
+    --tertiary-color: #392E6E;
+    --quaternary-color: #2B2256;
+}
+
+body {
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-family: 'Ubuntu Mono', monospace;
+    background-color: var(--primary-color);
+    color: var(--quaternary-color);
+}
+
+#banner {
+    margin: auto;
+    width: 60vw;
+    text-align: center;
+    height: 100vh;
+}
+
+#heading {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+#hero-img {
+    max-height: 60vh;
+    max-width: 60vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+}
+
+#main-link {
+    display: block;
+    max-width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border;
+    text-decoration: none;
+    background-color: var(--tertiary-color);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 550;
+    cursor: pointer;
+    box-shadow: -4px 3px 19px 2px var(--quaternary-color);
+    /* margin-bottom: 8vh; */
+}
+
+#main-app {
+    margin: auto;
+    width: 60vw;
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: -4px 3px 19px 2px var(--tertiary-color);
+}
+
+.form-style {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-style {
+    color: var(--quaternary-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.input-style {
+    display: block;
+    margin: auto;
+    width: 55%;
+    padding: 0.3125rem 0.3125rem;
+    background-color: #e0bff7;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--tertiary-color);
+    text-align: start;
+    cursor: pointer;
+    box-shadow: 5px 5px 20px rgb(185, 184, 184);
+}
+
+.check-style {
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-family: inherit;
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 30%;
+    align-self: center;
+    cursor: pointer;
+    min-width: 25vw;
+    box-shadow: 5px 5px 20px rgb(161, 161, 161);
+}
+
+.loading-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    max-width: 50vw;
+}
+
+.result-style {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
