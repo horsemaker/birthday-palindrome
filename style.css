@@ -135,12 +135,25 @@ i {
   margin-left: 0.6vw;
 }
 
-@media screen and (max-width: 600px) {
-    #main-link {
-      max-width: 60vw;
-    }
+.github-repo {
+    margin-top: 0;
+    padding: 0;
+}
 
-    .check-style {
-        max-width: 35vw;
-    }
+.github-repo-link {
+    text-decoration: none;
+}
+
+.redirect {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  #main-link {
+    max-width: 60vw;
   }
+
+  .check-style {
+    max-width: 35vw;
+  }
+}
